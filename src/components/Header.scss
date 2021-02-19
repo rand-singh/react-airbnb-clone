@@ -1,13 +1,14 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-	align-items: center; // is this needed
+	align-items: center;
 	padding: 20px 38px;
 	position: sticky;
 	background-color: white;
 	z-index: 100;
 	width: 100%;
-	top: 0; // is this needed?
+	top: 0;
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.08);
 }
 
 .header__icon {
