@@ -1,2 +1,20 @@
 .searchPage {
+	padding: 50px 35px 35px;
+	max-width: 1440px;
+	margin: 0 auto;
+
+	h5 {
+		margin-bottom: 35px;
+	}
+
+	button {
+		text-transform: inherit;
+		border-radius: 30px;
+		margin-right: 10px;
+	}
+}
+
+.searchPage__info p {
+	margin-bottom: 10px;
+	font-size: 16px;
 }
