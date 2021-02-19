@@ -1,0 +1,37 @@
+.card {
+	border-radius: 14px;
+	overflow: hidden;
+	box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+	margin-right: 30px;
+	cursor: pointer;
+	transition: transform 100ms ease-in-out;
+	flex: 1;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover {
+		transform: scale(1.06);
+	}
+
+	img {
+		width: 100%;
+		max-height: 280px;
+		object-fit: cover;
+	}
+}
+
+.card__info {
+	padding: 26px 23px 23px 23px;
+
+	h6 {
+		margin-bottom: 7px;
+		font-weight: 600;
+	}
+}
+
+.card__infoPrice {
+	font-weight: 900;
+	margin-top: 17px;
+}

@@ -3,6 +3,7 @@
 	position: relative;
 	background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2019/06/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.jpg?fit=2500%2C1666")
 		center center;
+	margin-bottom: 60px;
 }
 
 .banner__search {
@@ -14,6 +15,7 @@
 	background-color: white !important;
 	text-transform: inherit !important;
 	color: #ff7779 !important;
+	border-radius: 0 !important;
 
 	.MuiButton-label {
 		font-weight: 900 !important;

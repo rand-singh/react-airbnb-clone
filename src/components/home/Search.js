@@ -31,7 +31,7 @@ function Search() {
                 Number of Guests
                 <PeopleIcon />
             </p>
-            <input className="search__guestCountInput" type="number" min={1} default="2"/>
+            <input className="search__guestCountInput" type="number" min={1} />
             <Button
                 variant="outlined" 
                 className="search__button">
