@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; // is this needed
+	padding: 20px 38px;
+	position: sticky;
+	background-color: white;
+	z-index: 100;
+	width: 100%;
+	top: 0; // is this needed?
+}
+
+.header__icon {
+	object-fit: contain;
+	height: 46px;
+}
+
+.header__center {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	margin: 0 38px;
+	max-width: fit-content;
+	padding: 8px 18px 8px 8px;
+	border: 1px solid lightgray;
+	border-radius: 999px;
+
+	& > input {
+		border: 0;
+		margin: 2px 18px;
+		width: 300px;
+	}
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+	width: 15vw;
+	justify-content: space-between;
+}
