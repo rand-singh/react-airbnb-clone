@@ -5,8 +5,10 @@ import './Search.scss'
 import { DateRangePicker } from 'react-date-range';
 import PeopleIcon from '@material-ui/icons/People'
 import { Button } from '@material-ui/core'
+import { useHistory } from 'react-router-dom';
 
 function Search() {
+    const history = useHistory();
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date())
 
@@ -34,7 +36,8 @@ function Search() {
             <input className="search__guestCountInput" type="number" min={1} />
             <Button
                 variant="outlined" 
-                className="search__button">
+                className="search__button"
+                onClick={() => history.push('/search')}>
                     Search Airbnb
             </Button>
         </div>
