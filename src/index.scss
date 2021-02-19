@@ -14,8 +14,16 @@ body {
 }
 
 code {
+	display: block;
+	background: rgba(0, 0, 0, 0.85);
+	padding: 4px;
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
+	color: #39ff14;
+
+	&:before {
+		content: "> ";
+	}
 }
 
 h1,
@@ -23,8 +31,8 @@ h2 {
 	font-family: "Montserrat", sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 74px;
-	line-height: 82px;
+	font-size: 54px;
+	line-height: 60px;
 }
 
 h3,
@@ -34,14 +42,15 @@ h6 {
 	font-family: "Lora", serif;
 	font-style: italic;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 42px;
+	font-size: 28px;
+	line-height: 36px;
 }
 
 a,
 p,
 span,
-input {
+input,
+button {
 	font-family: "Hind Madurai", sans-serif;
 	font-style: normal;
 	font-weight: 300;
